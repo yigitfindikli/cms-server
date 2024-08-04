@@ -1,0 +1,10 @@
+version: '3'
+services:
+    postgres:
+        image: postgres
+        environment:
+            POSTGRES_DB: cms-db
+            POSTGRES_USER: cms-admin
+            POSTGRES_PASSWORD: Admin.123
+        ports:
+            - 5432:5432
