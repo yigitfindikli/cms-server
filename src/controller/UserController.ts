@@ -105,3 +105,24 @@ export const changePassword = async (request: Request, response: Response, next:
 
     response.status(200).send({ success: true });
 };
+
+export const changeRole = async (request: Request, response: Response, next: NextFunction) => {
+    const currentUser = response.locals.user;
+    const { email, role } = request.body;
+
+    const user = await findUserByEmail(email);
+
+    if (!user) {
+        return next(new ApiError(USER_DOESNT_EXISTS));
+    }
+
+    if (currentUser.id === user.id) {
+        return next(new ApiError(INVALID_CREDENTIAL));
+    }
+
+    user.role = role;
+
+    await saveUser(user);
+
+    response.status(200).send({ success: true });
+};

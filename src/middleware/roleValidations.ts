@@ -3,7 +3,6 @@ import ApiError from '../utils/apiError';
 import { NO_AUTHORIZATION } from '../data/errors';
 import { RoleType } from '../enums/role';
 import { findPostById } from '../services/post.service';
-import { User } from '../orm/entity/User';
 
 export const requireAdmin = (request: Request, response: Response, next: NextFunction) => {
     try {
