@@ -86,7 +86,7 @@ Here are the scripts available in the project:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/cms-server.git
+    git clone https://github.com/yigitfindikli/cms-server.git
     cd cms-server
     ```
 
