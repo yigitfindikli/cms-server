@@ -23,6 +23,7 @@ This repository, `cms-server`, serves as a type-safe boilerplate for a CMS serve
 -   **Social Auth**: Integration with social authentication providers.
 -   **Other DB Options**: Support for additional databases.
 -   **Redis Option**: Redis integration for caching and other purposes.
+-   **Postman Docs**: Route docs.
 
 ## Scripts
 
