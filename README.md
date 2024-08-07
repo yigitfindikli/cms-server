@@ -1,6 +1,6 @@
 # cms-server
 
-This repository, `cms-server`, serves as a type-safe boilerplate for a CMS server application built with Node.js and TypeScript. It features modern best practices, including authentication, role management, and database interactions with TypeORM. Designed to integrate seamlessly with the `cms-client-react` frontend repository, it ensures a robust and scalable foundation for developing content management systems.
+This repository, `cms-server`, serves as a type-safe boilerplate for a CMS server application built with Node.js and TypeScript. It features modern best practices, including authentication, role management, and database interactions with TypeORM. Designed to integrate seamlessly with the [cms-client-react](https://github.com/yigitfindikli/cms-client-react) frontend repository, it ensures a robust and scalable foundation for developing content management systems.
 
 ## Features
 
